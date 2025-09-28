@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: hsl(0, 47%, 57%);
+    height: 3000px; /* больше, чтобы видеть эффекты прокрутки */
+}
+
+h2 {
+    margin-top: 0;
+}
+
+/* Task 1: static (по умолчанию) */
+.task1 {
+    position: static;
+    background-color: lightblue;
+    margin: 50px 0 0 100px;
+    padding: 20px;
+}
+
+/* Task 2: relative */
+.task2 {
+    position: relative;
+    color: darkblue;
+    background-color: lightsalmon;
+    top: 100px; /* смещен вниз */
+    padding: 20px;
+}
+
+/* Контейнер для absolute */
+.task3-container {
+    position: relative;
+    background-color: #ddd;
+    height: 300px;
+    margin-top: 150px;
+    padding: 20px;
+}
+
+/* Task 3: absolute */
+.task3 {
+    position: absolute;
+    color: white;
+    background-color: darkblue;
+    top: 50px;
+    left: 50px;
+    padding: 10px;
+}
+
+/* Task 4: fixed */
+.task4 {
+    position: fixed;
+    color: white;
+    background-color: darkgreen;
+    bottom: 100px;
+    right: 50px;
+    padding: 10px;
+}
+
+/* Task 5: sticky */
+h3.sticky {
+    position: sticky;
+    top: 0;
+    background-color: orange;
+    padding: 10px;
+    margin: 0;
+    z-index: 1;
+}

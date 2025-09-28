@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework - Positioning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Task 1: position: static -->
+    <!-- Элемент располагается по умолчанию в потоке документа -->
+    <div class="task1">
+        <h2>Task 1: Position Static</h2>
+        <p>This element uses <strong>position: static</strong> (default). It flows naturally in the document.</p>
+    </div>
+
+    <!-- Task 2: position: relative -->
+    <!-- Элемент остается в потоке, но визуально смещается -->
+    <div class="task2">
+        <h2>Task 2: Position Relative</h2>
+        <p>This element is <strong>relative</strong> and moved 100px down from its normal position.</p>
+    </div>
+
+    <!-- Task 3: position: absolute -->
+    <!-- Абсолютное позиционирование внутри родителя с relative -->
+    <div class="task3-container">
+        <h2>Task 3: Position Absolute (Container)</h2>
+        <div class="task3">
+            <h3>Absolute Element</h3>
+            <p>This element is <strong>absolutely</strong> positioned inside a relative container.</p>
+        </div>
+    </div>
+
+    <!-- Task 4: position: fixed -->
+    <!-- Элемент фиксирован внизу справа, не прокручивается -->
+    <div class="task4">
+        <h2>Task 4: Position Fixed</h2>
+        <p>This block stays <strong>fixed</strong> in the bottom-right corner of the screen.</p>
+    </div>
+
+    <!-- Task 5: position: sticky -->
+    <!-- Заголовки "прилипают" к верхней части экрана при прокрутке -->
+    <div class="task5">
+        <h2>Task 5: Position Sticky</h2>
+        <p>Scroll down to see sticky headers in action.</p>
+
+        <h3 class="sticky">Sticky Header 1</h3>
+        <p>Helloooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo.</p>
+        <p>...</p>
+        <p>More content here...</p>
+
+        <h3 class="sticky">Sticky Header 2</h3>
+        <p>More text below to show sticky behavior. Keep scrolling.</p>
+        <p>...</p>
+        <p>Even more content here...</p>
+    </div>
+
+</body>
+</html>
