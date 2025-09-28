@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+.task {
+    margin-bottom: 40px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+/* Task 1 */
+.display-block {
+    display: block;
+    background: lightblue;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.display-inline {
+    display: inline;
+    background: lightcoral;
+    padding: 10px;
+}
+.display-flex {
+    display: flex;
+    background: lightgreen;
+    padding: 10px;
+    gap: 10px;
+    margin-top: 10px;
+}
+.display-flex div {
+    background: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Task 2 */
+.flex-container {
+    display: flex;
+    gap: 10px;
+}
+.flex-container div {
+    background: salmon;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+}
+
+/* Task 3 */
+.direction-container {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: lightseagreen;
+    gap: 10px;
+    padding: 10px;
+}
+.direction-container div {
+    flex: 0 0 100px;
+    background: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Task 4 */
+.alignment-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 200px;
+    background: lightgray;
+    gap: 10px;
+}
+.alignment-container div {
+    background: purple;
+    color: white;
+    padding: 20px;
+}
+
+/* Task 5 */
+.flex-props-container {
+    display: flex;
+    gap: 10px;
+}
+.box {
+    background-color: lightcoral;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.box1 {
+    flex-grow: 2;
+}
+.box2 {
+    flex-shrink: 3;
+    flex-basis: 150px;
+}
+.box3 {
+    flex: 1 1 100px;
+}
+
+/* Task 6 */
+.practical-layout {
+    display: flex;
+    gap: 10px;
+}
+.half {
+    flex: 0 0 50%;
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+}
+.auto {
+    flex: 1;
+    background-color: lightgreen;
+    text-align: center;
+    padding: 20px;
+}
+.fixed {
+    flex: 0 0 100px;
+    background-color: lightpink;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Task 7 */
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #333;
+    padding: 15px;
+}
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+    padding: 10px;
+}
+.nav-menu a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+/* Task 8 */
+.card-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+.card {
+    flex: 1 1 200px;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
